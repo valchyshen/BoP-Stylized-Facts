@@ -2,7 +2,7 @@
 bea.api.Key  <- "E5EBB4AD-4E48-4EC7-B63A-73BAFDE57869"   # API code for BEA library
 fred.api.key <- "741b5fa267d09bae576b2f83bc3cdf3b"       # API code for FredR library
 my_watermark <- "@AlexValchyshen"
-my_label     <- paste0("(c) ",format(Sys.Date(),"%Y"), " Alexander Valchyshen, twitter: @AlexValchyshen.")
+my_label     <- paste0("(c) ",format(Sys.Date(),"%Y"), " Oleksandr Valchyshen, twitter: @AlexValchyshen.")
 my_label2    <- paste0("Produced by: ","@AlexValchyshen (https://twitter.com/AlexValchyshen), ",format(Sys.Date(),"%Y"),".")
 
 # Data libraries
@@ -16,7 +16,7 @@ library(ustyc)                # https://github.com/mrbcuda/ustyc
 library(CBRT)                 # Central Bank of Turkey
 
 library(ggmap)
-register_google(key = "AIzaSyAJoaOFcJ2f2jJC05Aff9gCqUwnGXCMBIw")
+register_google(key = "") # <- insert your key
 
 # System libraries
 library(RSelenium)
