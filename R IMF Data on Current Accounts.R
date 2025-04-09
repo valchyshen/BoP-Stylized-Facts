@@ -5,7 +5,7 @@
 # Started: 1/2/2022
 #
 
-source("C:/R/libraries.R")
+source("libraries.R")
 library(haven)   # lib to read *.dta files (STATA)
 library(readxl);library(writexl);library(xlsx);library(readxl) 
 
